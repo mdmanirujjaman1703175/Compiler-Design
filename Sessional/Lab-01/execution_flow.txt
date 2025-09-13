@@ -1,0 +1,31 @@
+HelloWorld.c → Preprocessor → HelloWorld.i → Compiler → HelloWorld.s → Assembler → HelloWorld.o → Linker → HelloWorld.exe
+Task of Preprocessor:
+           gcc -E HelloWorld.c -o HelloWorld.i
+The preprocessor runs before actual compilation.
+It processes:
+   1. #include → expands header files into your code.
+   2. #define → replaces macros with their values.
+   3. Removes comments.
+
+Task of Compiler:
+               gcc -S -masm=intel HelloWorld.i -o HelloWorld.s
+Actual compilation phase.
+Tasks:
+   1.The compiler proper translates preprocessed C code into assembly code.
+   2.It checks for syntax errors, optimizes code, and generates machine-level instructions in human-readable assembly language.
+   3.Output file: HelloWorld.s (assembly instructions).
+
+Task of Assembler:
+              as -o HelloWorld.o HelloWorld.s
+     1. The assembler converts assembly code into machine code (binary instructions).
+     2. This produces an object file containing compiled code but not yet linked with libraries.
+     3. Output file: HelloWorld.o (binary object file).   
+
+Task of Linker:
+
+The linker combines:
+   1. Your object file (HelloWorld.o)
+   2. Startup code (for main)
+   3. Required libraries (like libc for printf)
+   4. Produces a standalone executable.
+   5. Output file: HelloWorld.exe (Windows) or HelloWorld (Linux).     
