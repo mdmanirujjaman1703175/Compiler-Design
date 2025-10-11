@@ -1,0 +1,167 @@
+Enter an code : /* Example C program with all kinds of tokens */ -> Multiline_LIne_COmment
+Unknwon
+ include -> keyword 
+ < -> Logical operator 
+ stdio -> Identifier 
+ . -> delimiter
+ h -> Identifier 
+ > -> Logical operator 
+ // Preprocessor directive -> Single_LIne_COmment
+ // Function declaration -> Single_LIne_COmment
+ int -> keyword 
+ add -> Identifier 
+ ( -> delimiter
+ int -> keyword 
+ a -> Identifier 
+ , -> delimiter
+ int -> keyword 
+ b -> Identifier 
+ ) -> delimiter
+ { -> delimiter
+ return -> keyword 
+ a -> Identifier 
+ + -> Arithmatic operator 
+ b -> Identifier 
+ ; -> delimiter
+ // '+' is an operator -> Single_LIne_COmment
+ } -> delimiter
+ int -> keyword 
+ main -> Identifier 
+ ( -> delimiter
+ ) -> delimiter
+ { -> delimiter
+ int -> keyword 
+ x -> Identifier 
+ = -> Assignment operator 
+ 10 -> int_Number 
+ , -> delimiter
+ y -> Identifier 
+ = -> Assignment operator 
+ 20 -> int_Number 
+ ; -> delimiter
+ float -> keyword 
+ pi -> Identifier 
+ = -> Assignment operator 
+ 3.14 -> float_number 
+ ; -> delimiter
+ char -> keyword 
+ ch -> Identifier 
+ = -> Assignment operator 
+ 'A' -> Character 
+ ; -> delimiter
+ char -> keyword 
+ str -> Identifier 
+ [ -> delimiter
+ ] -> delimiter
+ = -> Assignment operator 
+ "Hello, Tokens!" -> String 
+ ; -> delimiter
+ // Arithmetic operators -> Single_LIne_COmment
+ int -> keyword 
+ sum -> Identifier 
+ = -> Assignment operator 
+ x -> Identifier 
+ + -> Arithmatic operator 
+ y -> Identifier 
+ ; -> delimiter
+ int -> keyword 
+ diff -> Identifier 
+ = -> Assignment operator 
+ y -> Identifier 
+ - -> Arithmatic operator 
+ x -> Identifier 
+ ; -> delimiter
+ int -> keyword 
+ mul -> Identifier 
+ = -> Assignment operator 
+ x -> Identifier 
+ * -> Arithmatic operator 
+ y -> Identifier 
+ ; -> delimiter
+ int -> keyword 
+ div -> Identifier 
+ = -> Assignment operator 
+ y -> Identifier 
+ / -> Arithmatic operator 
+ x -> Identifier 
+ ; -> delimiter
+ int -> keyword 
+ mod -> Identifier 
+ = -> Assignment operator 
+ y -> Identifier 
+ % -> Arithmatic operator 
+ x -> Identifier 
+ ; -> delimiter
+ // Relational & logical operators -> Single_LIne_COmment
+ if -> keyword 
+ ( -> delimiter
+ x -> Identifier 
+ < -> Logical operator 
+ y -> Identifier 
+ && -> Logical operator 
+ y -> Identifier 
+ > -> Logical operator 
+ 0 -> int_Number 
+ ) -> delimiter
+ { -> delimiter
+ printf -> Identifier 
+ ( -> delimiter
+ "x is less than y\n" -> String 
+ ) -> delimiter
+ ; -> delimiter
+ } -> delimiter
+ else -> keyword 
+ { -> delimiter
+ printf -> Identifier 
+ ( -> delimiter
+ "Condition failed\n" -> String 
+ ) -> delimiter
+ ; -> delimiter
+ } -> delimiter
+ // Increment / Decrement -> Single_LIne_COmment
+ x -> Identifier 
+ ++ -> Inc operator 
+ ; -> delimiter
+ y -> Identifier 
+ -- -> Dec operator 
+ ; -> delimiter
+ // Function call -> Single_LIne_COmment
+ int -> keyword 
+ result -> Identifier 
+ = -> Assignment operator 
+ add -> Identifier 
+ ( -> delimiter
+ x -> Identifier 
+ , -> delimiter
+ y -> Identifier 
+ ) -> delimiter
+ ; -> delimiter
+ // Loop (keywords) -> Single_LIne_COmment
+ for -> keyword 
+ ( -> delimiter
+ int -> keyword 
+ i -> Identifier 
+ = -> Assignment operator 
+ 0 -> int_Number 
+ ; -> delimiter
+ i -> Identifier 
+ < -> Logical operator 
+ 5 -> int_Number 
+ ; -> delimiter
+ i -> Identifier 
+ ++ -> Inc operator 
+ ) -> delimiter
+ { -> delimiter
+ printf -> Identifier 
+ ( -> delimiter
+ "i = %d\n" -> String 
+ , -> delimiter
+ i -> Identifier 
+ ) -> delimiter
+ ; -> delimiter
+ } -> delimiter
+ // Return statement -> Single_LIne_COmment
+ return -> keyword 
+ 0 -> int_Number 
+ ; -> delimiter
+ } -> delimiter

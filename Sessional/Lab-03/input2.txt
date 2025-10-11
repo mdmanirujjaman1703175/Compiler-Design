@@ -1,0 +1,45 @@
+/* Example C program with all kinds of tokens */
+
+#include <stdio.h>   // Preprocessor directive
+
+// Function declaration
+int add(int a, int b) {
+    return a + b;   // '+' is an operator
+}
+
+int main() {
+
+    int x = 10, y = 20;
+    float pi = 3.14;
+    char ch = 'A';
+    char str[] = "Hello, Tokens!";
+
+    // Arithmetic operators
+    int sum = x + y;
+    int diff = y - x;
+    int mul = x * y;
+    int div = y / x;
+    int mod = y % x;
+
+    // Relational & logical operators
+    if (x < y && y > 0) {
+        printf("x is less than y\n");
+    } else {
+        printf("Condition failed\n");
+    }
+
+    // Increment / Decrement
+    x++;
+    y--;
+
+    // Function call
+    int result = add(x, y);
+
+    // Loop (keywords)
+    for (int i = 0; i < 5; i++) {
+        printf("i = %d\n", i);
+    }
+
+    // Return statement
+    return 0;
+}
